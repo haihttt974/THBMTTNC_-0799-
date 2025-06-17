@@ -3,7 +3,7 @@ import os
 
 # Thêm đường dẫn LAB-02 vào sys.path để import được cipher
 current_dir = os.path.dirname(os.path.abspath(__file__))
-lab02_path = os.path.abspath(os.path.join(current_dir, "../LAB-02"))
+lab02_path = os.path.abspath(os.path.join(current_dir, "../../LAB-02"))
 sys.path.append(lab02_path)
 
 from cipher.caesar import CaesarCipher

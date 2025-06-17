@@ -8,7 +8,7 @@ app = Flask(__name__, template_folder="templates")
 
 # Hàm chạy file Qt ở LAB-03
 def run_qt_script(script_filename):
-    script_path = os.path.abspath(os.path.join("..", "LAB-03", script_filename))
+    script_path = os.path.abspath(os.path.join("../..", "LAB-03", script_filename))
     subprocess.Popen(["python", script_path], shell=True)
 
 # Trang chính

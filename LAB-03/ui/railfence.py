@@ -40,7 +40,7 @@ class Ui_Dialog(object):
         self.key_txt.setGeometry(QtCore.QRect(160, 230, 531, 22))
         self.key_txt.setObjectName("key_txt")
         self.label_2 = QtWidgets.QLabel(Dialog)
-        self.label_2.setGeometry(QtCore.QRect(310, 60, 161, 31))
+        self.label_2.setGeometry(QtCore.QRect(310, 100, 161, 31))
         font = QtGui.QFont()
         font.setFamily("Agency FB")
         font.setPointSize(12)
